@@ -1,0 +1,13 @@
+a{
+display:block;
+text-decoration:none;
+}
+ul{
+list-style-type:none;
+margin: 10px 10px 10px 10px ;
+}
+.nav { list-style-type: none;padding: 2px 0 0 0 ; width:400px;}
+.nav li { font-weight: bold; margin: 0px 0px 0px 0px;}
+.nav li a { display: inline-block; padding: 5px; color: #33CCFF; text-decoration: none;}
+.nav li a:hover { background:#33CCFF ;color:white; }
+a.present{display: inline-block; padding: 5px; color: #33CCFF; text-decoration: none; background: #CCCCCC;}

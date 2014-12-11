@@ -1,0 +1,54 @@
+body,h1,h2,h3,p,td,quote,small,form,input,ul,li,ol,label{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	font-family:Georgia;
+	color:#51555C;
+	font-size:12px;
+}
+em{
+ color:blue;
+}
+
+td{
+	padding-left:20px;
+}
+
+
+a{
+text-decoration:none;
+color:#33CCFF;
+}
+a:hover{
+color: #CA0A6C;
+}
+
+.srchblk{
+	position:relative;
+	margin-top:150px;
+	width:700px;
+	display:block;
+	clear:both;
+	padding:20px 20px 20px 20px;
+}
+.btnSearch{
+	width:auto;
+	margin:20px 0 0 2px;
+	padding:3px 4px 3px 4px;
+	color:white;
+	background-color:#589d39;
+	outline:none;
+	border:1px solid #006600;
+	font-size:12px;
+	font-weight:bold;
+}
+.trend { list-style-type: none;padding: 2px 0 0 0 ;}
+.trend li { font-weight: bold; margin: 0px 0px 0px 0px;display:inline; }
+.trend li a { padding: 5px; color: #33CCFF; text-decoration: none; }
+.trend li a:hover { background: #CCCCCC; }
+
+#loading{
+visibility:hidden;
+}
